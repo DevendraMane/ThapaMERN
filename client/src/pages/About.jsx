@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { useAuth } from "../store/auth";
+import { useAuth } from "../store/Auth.jsx";
 // import { Analytics } from "../components/Analytics";
 
 export const About = () => {
