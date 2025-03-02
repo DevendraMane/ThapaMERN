@@ -60,7 +60,7 @@ export const AdminUsers = () => {
                   <th>Name</th>
                   <th>Email</th>
                   <th>Phone</th>
-                  <th>Updata</th>
+                  <th>Update</th>
                   <th>Delete</th>
                 </tr>
               </thead>

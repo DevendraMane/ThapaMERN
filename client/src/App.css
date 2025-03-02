@@ -135,6 +135,9 @@ li {
   gap: 3.2rem;
 }
 
+.grid-one-cols {
+  grid-template-columns: repeat(1, 1fr);
+}
 .grid-two-cols {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -466,12 +469,12 @@ button:active {
 
 /* Registration Section */
 .section-registration {
-  padding: 6rem 3.2rem;
+  padding: 0rem 3.2rem;
   background-color: var(--bg-secondary);
 }
 
 .section-registration .container {
-  padding-top: 6rem;
+  padding-top: 4rem;
   align-items: center;
 }
 
@@ -484,7 +487,7 @@ button:active {
 
 .section-registration .registration-form {
   background-color: var(--bg-primary);
-  padding: 3.2rem;
+  padding:0rem 3.2rem;
   border-radius: 1.6rem;
   box-shadow: var(--card-shadow);
 }
@@ -514,7 +517,7 @@ button:active {
 }
 
 .section-registration .registration-form button {
-  margin-top: 3.2rem;
+  margin-top: 0rem;
 }
 
 /* Admin Navigation */

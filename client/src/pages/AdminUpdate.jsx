@@ -77,7 +77,7 @@ export const AdminUpdate = () => {
       <section>
         <main>
           <div className="section-registration">
-            <div className="container grid grid-two-cols">
+            <div className="container grid grid-one-cols">
               <div className="registration-form">
                 <h1 className="main-heading mb-3">Update User</h1>
                 <br />
