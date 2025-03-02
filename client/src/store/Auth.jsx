@@ -8,7 +8,8 @@ export const AuthProvider = ({ children }) => {
   const [services, setServices] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const authorizationToken = `Bearer ${token}`;
-  const API = import.meta.env.VITE_APP_URI_API;
+  // const API = import.meta.env.VITE_APP_URI_API;
+  const API = "https://deva-mern-backend.onrender.com";
 
   // ?↓↓↓This line means if the token is present the isLoggedIn value will be true else it will be false
   let isLoggedIn = !!token;
