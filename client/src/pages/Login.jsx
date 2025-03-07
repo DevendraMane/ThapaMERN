@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
-import { useAuth } from "../store/auth";
+import { useAuth } from "../store/Auth.jsx";
 import { toast } from "react-toastify";
 
 export const Login = () => {
